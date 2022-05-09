@@ -1,0 +1,18 @@
+from primePy import primes
+
+
+def worker(*args):
+    # TODO
+    pass
+
+
+def test():
+    num_workers = 5
+    sample_data = range(100)
+
+    for p in yield_primes(sample_data):
+        print(f'found prime: {p}')
+
+
+if __name__ == '__main__':
+    test()
