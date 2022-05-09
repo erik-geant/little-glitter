@@ -1,18 +1,23 @@
 from primePy import primes
 
 
-def worker(*args):
+def find_primes(input_values):
     # TODO
     pass
 
 
-def test():
-    num_workers = 5
-    sample_data = range(100)
+def positive_test():
+    # verify that a known test vector
+    # produces the expected results
+    pass
 
-    for p in yield_primes(sample_data):
-        print(f'found prime: {p}')
+
+def negative_test():
+    # verify that invalid input data
+    # is caught and handled elegantly
+    pass
 
 
 if __name__ == '__main__':
-    test()
+    positive_test()
+    negative_test()

@@ -1,15 +1,11 @@
-from primePy import primes
-
-
-def find_primes(input_values):
-    for x in input_values:
-        if primes.check(x):
-            yield x
+def yield_primes(input_values):
+    # TODO
+    pass
 
 
 def test():
     sample_data = range(100)
-    for p in find_primes(sample_data):
+    for p in yield_primes(sample_data):
         print(f'found prime: {p}')
 
 
