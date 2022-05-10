@@ -2,15 +2,15 @@
 
 
 1. Write a method that accepts an iterable of integers
-   as input and returns an iterable containing all prime
-   integers.
+   as input and returns an iterable containing all elements
+   of the input list that are prime.
    (cf. `part1.py` in this repository for a code reference)
 
 
 2. Write a generator method that accepts an iterable of integers
    as input and, rather than pre-computing an entire 
    list before returning, yields prime values one-by-one
-   as they are discovered (maybe you already did this
+   as they are discovered in the input list (maybe you already did this
    in your solution to #1)
    (cf. `part2.py` in this repository for a code reference)
 
